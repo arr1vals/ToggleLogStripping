@@ -99,6 +99,8 @@ public class Commands implements CommandExecutor, TabExecutor {
 
                             break;
                     }
+                } else {
+                    commandErrorMsg(sender, label, args);
                 }
                 return true;
             }
@@ -118,6 +120,8 @@ public class Commands implements CommandExecutor, TabExecutor {
         if (args.length == 1) {
             commands.add("enable");
             commands.add("disable");
+            commands.add("verbenable");
+            commands.add("verbdisable");
 
         }
 
