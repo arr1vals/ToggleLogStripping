@@ -15,10 +15,10 @@ import java.util.List;
 
 import static me.arrivals.togglelogstripping.Main.format;
 
-public class Commands implements CommandExecutor, TabExecutor {
+public class __Commands_old implements CommandExecutor, TabExecutor {
     private final Main plugin;
 
-    public Commands(Main plugin) {
+    public __Commands_old(Main plugin) {
         this.plugin = plugin;
     }
 
