@@ -1,0 +1,12 @@
+name: ToggleLogStripping
+version: 1.0.0
+main: togglelogstripping.Main
+api-version: 1.19
+authors: [ arrivals ]
+description: End the suffering!
+website: https://andremoire.com
+commands:
+  logstrip:
+    description: Commands for ToggleLogStripping.
+    usage: /<command>
+    aliases: [ lstrip ]
